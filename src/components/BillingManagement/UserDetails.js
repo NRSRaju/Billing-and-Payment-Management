@@ -21,6 +21,10 @@ const UserDetails = ({ user, onClose }) => {
           <Value>{user.panCard}</Value>
         </DetailRow>
         <DetailRow>
+          <Label>Commission Rate:</Label>
+          <Value>{user.commissionRate}%</Value>
+        </DetailRow>
+        <DetailRow>
           <Label>Bank Account:</Label>
           <Value>{user.bankAccount}</Value>
         </DetailRow>
@@ -31,3 +35,4 @@ const UserDetails = ({ user, onClose }) => {
 };
 
 export default UserDetails;
+
