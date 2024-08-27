@@ -35,3 +35,10 @@ export const DateRangePicker = styled(DatePicker)`
   margin-bottom: 10px;
   width: 200px;
 `;
+export const Select = styled.select`
+  padding: 8px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+`;
