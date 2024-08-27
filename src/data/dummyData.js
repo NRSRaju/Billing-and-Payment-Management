@@ -1,3 +1,115 @@
+// export const users = [
+//   { 
+//     id: 1, 
+//     name: 'John Doe', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Professional', 
+//     panCard: 'ABCDE1234F', 
+//     bankAccount: '1234567890',
+//     totalEarnings: 5000,
+//     totalCommissionsPaid: 4500,
+//     pendingPayments: 500
+//   },
+//   { 
+//     id: 2, 
+//     name: 'Jane Smith', 
+//     billingStatus: 'Pending Verification', 
+//     occupation: 'Student', 
+//     panCard: 'FGHIJ5678K', 
+//     bankAccount: '0987654321',
+//     totalEarnings: 3000,
+//     totalCommissionsPaid: 2700,
+//     pendingPayments: 300
+//   },
+//   { 
+//     id: 3, 
+//     name: 'Alice Johnson', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Influencer', 
+//     panCard: 'JKLMN9876L', 
+//     bankAccount: '1122334455',
+//     totalEarnings: 8000,
+//     totalCommissionsPaid: 7200,
+//     pendingPayments: 800
+//   },
+//   { 
+//     id: 4, 
+//     name: 'Bob Brown', 
+//     billingStatus: 'Pending Verification', 
+//     occupation: 'Marketing Agent', 
+//     panCard: 'OPQRS5432M', 
+//     bankAccount: '2233445566',
+//     totalEarnings: 4500,
+//     totalCommissionsPaid: 4000,
+//     pendingPayments: 500
+//   },
+//   { 
+//     id: 5, 
+//     name: 'Charlie White', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Professional', 
+//     panCard: 'TUVWX1234N', 
+//     bankAccount: '3344556677',
+//     totalEarnings: 6000,
+//     totalCommissionsPaid: 5400,
+//     pendingPayments: 600
+//   },
+//   { 
+//     id: 6, 
+//     name: 'Emily Davis', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Student', 
+//     panCard: 'YZABC4567P', 
+//     bankAccount: '4455667788',
+//     totalEarnings: 2500,
+//     totalCommissionsPaid: 2250,
+//     pendingPayments: 250
+//   },
+//   { 
+//     id: 7, 
+//     name: 'David Wilson', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Influencer', 
+//     panCard: 'DEFGH9876Q', 
+//     bankAccount: '5566778899',
+//     totalEarnings: 10000,
+//     totalCommissionsPaid: 9000,
+//     pendingPayments: 1000
+//   },
+//   { 
+//     id: 8, 
+//     name: 'Grace Lee', 
+//     billingStatus: 'Pending Verification', 
+//     occupation: 'Marketing Agent', 
+//     panCard: 'IJKLM1234R', 
+//     bankAccount: '6677889900',
+//     totalEarnings: 5500,
+//     totalCommissionsPaid: 4950,
+//     pendingPayments: 550
+//   },
+//   { 
+//     id: 9, 
+//     name: 'Henry Martin', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Professional', 
+//     panCard: 'NOPQR5432S', 
+//     bankAccount: '7788990011',
+//     totalEarnings: 7000,
+//     totalCommissionsPaid: 6300,
+//     pendingPayments: 700
+//   },
+//   { 
+//     id: 10, 
+//     name: 'Isabella Turner', 
+//     billingStatus: 'Verified', 
+//     occupation: 'Student', 
+//     panCard: 'STUVW9876T', 
+//     bankAccount: '8899001122',
+//     totalEarnings: 3500,
+//     totalCommissionsPaid: 3150,
+//     pendingPayments: 350
+//   }
+// ];
 export const users = [
   { 
     id: 1, 
@@ -8,7 +120,8 @@ export const users = [
     bankAccount: '1234567890',
     totalEarnings: 5000,
     totalCommissionsPaid: 4500,
-    pendingPayments: 500
+    pendingPayments: 500,
+    commissionRate: 10
   },
   { 
     id: 2, 
@@ -19,7 +132,8 @@ export const users = [
     bankAccount: '0987654321',
     totalEarnings: 3000,
     totalCommissionsPaid: 2700,
-    pendingPayments: 300
+    pendingPayments: 300,
+    commissionRate: 12
   },
   { 
     id: 3, 
@@ -30,7 +144,8 @@ export const users = [
     bankAccount: '1122334455',
     totalEarnings: 8000,
     totalCommissionsPaid: 7200,
-    pendingPayments: 800
+    pendingPayments: 800,
+    commissionRate: 14
   },
   { 
     id: 4, 
@@ -41,7 +156,8 @@ export const users = [
     bankAccount: '2233445566',
     totalEarnings: 4500,
     totalCommissionsPaid: 4000,
-    pendingPayments: 500
+    pendingPayments: 500,
+    commissionRate: 10,
   },
   { 
     id: 5, 
@@ -52,7 +168,8 @@ export const users = [
     bankAccount: '3344556677',
     totalEarnings: 6000,
     totalCommissionsPaid: 5400,
-    pendingPayments: 600
+    pendingPayments: 600,
+    commissionRate: 13
   },
   { 
     id: 6, 
@@ -63,7 +180,8 @@ export const users = [
     bankAccount: '4455667788',
     totalEarnings: 2500,
     totalCommissionsPaid: 2250,
-    pendingPayments: 250
+    pendingPayments: 250,
+    commissionRate: 10
   },
   { 
     id: 7, 
@@ -74,7 +192,8 @@ export const users = [
     bankAccount: '5566778899',
     totalEarnings: 10000,
     totalCommissionsPaid: 9000,
-    pendingPayments: 1000
+    pendingPayments: 1000,
+    commissionRate: 11
   },
   { 
     id: 8, 
@@ -85,7 +204,8 @@ export const users = [
     bankAccount: '6677889900',
     totalEarnings: 5500,
     totalCommissionsPaid: 4950,
-    pendingPayments: 550
+    pendingPayments: 550,
+    commissionRate: 12
   },
   { 
     id: 9, 
@@ -96,7 +216,8 @@ export const users = [
     bankAccount: '7788990011',
     totalEarnings: 7000,
     totalCommissionsPaid: 6300,
-    pendingPayments: 700
+    pendingPayments: 700,
+    commissionRate: 17
   },
   { 
     id: 10, 
@@ -107,7 +228,8 @@ export const users = [
     bankAccount: '8899001122',
     totalEarnings: 3500,
     totalCommissionsPaid: 3150,
-    pendingPayments: 350
+    pendingPayments: 350,
+    commissionRate: 15
   }
 ];
 
