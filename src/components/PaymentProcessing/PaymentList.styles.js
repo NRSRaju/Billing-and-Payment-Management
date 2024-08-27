@@ -34,3 +34,22 @@ export const Button = styled.button`
   cursor: pointer;
   margin-bottom: 20px;
 `;
+
+export const Input = styled.input`
+  padding: 8px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+`;
+
+export const FilterContainer = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+`;
+
+export const Label = styled.label`
+  margin-right: 10px;
+  font-weight: bold;
+`;
+
